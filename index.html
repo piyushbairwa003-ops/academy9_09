@@ -1,0 +1,490 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- SEO -->
+  <title>PANKAJ BHARDWAJ – Trade Like Pro-Traders | 41K+ Subscribers</title>
+  <meta name="description" content="Join PANKAJ BHARDWAJ on Telegram — 41,961 subscribers. Learn to trade like pro-traders. Options, Index & Educational stock market calls. Free to join!"/>
+  <meta name="keywords" content="PANKAJ BHARDWAJ, Options Trading, Stock Market India, Telegram Trading, Pro Traders, Index Options, Educational Calls, SEBI"/>
+  <meta name="author" content="PANKAJ BHARDWAJ"/>
+  <meta name="robots" content="index, follow"/>
+
+  <!-- OG -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://t.me/+af6pTYlNh-lmN2M0"/>
+  <meta property="og:title" content="PANKAJ BHARDWAJ – Trade Like Pro-Traders"/>
+  <meta property="og:description" content="41,961+ subscribers learning to trade like pros. Free educational stock market calls. Join now on Telegram!"/>
+  <meta property="og:image" content="https://academylinkx.site/wp-content/uploads/2026/04/done.jpg"/>
+  <meta property="og:site_name" content="PANKAJ BHARDWAJ"/>
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="PANKAJ BHARDWAJ – Trade Like Pro-Traders"/>
+  <meta name="twitter:description" content="41K+ subscribers. Free educational stock market calls. Join Telegram now!"/>
+  <meta name="twitter:image" content="https://academylinkx.site/wp-content/uploads/2026/04/done.jpg"/>
+  <link rel="canonical" href="https://t.me/+af6pTYlNh-lmN2M0"/>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "PANKAJ BHARDWAJ",
+    "description": "India's leading educational stock market & options trading Telegram channel with 41,000+ subscribers.",
+    "url": "https://t.me/+af6pTYlNh-lmN2M0",
+    "logo": "https://academylinkx.site/wp-content/uploads/2026/04/done.jpg",
+    "sameAs": ["https://t.me/+af6pTYlNh-lmN2M0"]
+  }
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet"/>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --g1: #00ff88;
+      --g2: #00cc66;
+      --red: #ff4444;
+      --dark: #030d05;
+      --card: rgba(255,255,255,0.04);
+      --border: rgba(0,255,136,0.18);
+      --text: #e0fff0;
+      --muted: #5aaa7a;
+    }
+
+    html, body {
+      height: 100%; width: 100%;
+      background: var(--dark);
+      font-family: 'Nunito', sans-serif;
+      color: var(--text);
+      overflow: hidden;
+    }
+
+    /* ── Candlestick chart bg pattern ── */
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      background:
+        linear-gradient(170deg, rgba(0,255,136,0.06) 0%, transparent 40%),
+        linear-gradient(350deg, rgba(255,68,68,0.04) 0%, transparent 40%);
+      z-index: 0; pointer-events: none;
+    }
+
+    /* ── Grid lines like a trading chart ── */
+    body::after {
+      content: '';
+      position: fixed; inset: 0;
+      background-image:
+        linear-gradient(rgba(0,255,136,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,255,136,0.04) 1px, transparent 1px);
+      background-size: 36px 36px;
+      z-index: 0; pointer-events: none;
+      animation: gridMove 25s linear infinite;
+    }
+    @keyframes gridMove {
+      0%   { background-position: 0 0; }
+      100% { background-position: 36px 36px; }
+    }
+
+    /* ── Orbs ── */
+    .orb {
+      position: fixed; border-radius: 50%;
+      filter: blur(80px); z-index: 0; pointer-events: none;
+    }
+    .orb1 { width: 350px; height: 350px; background: rgba(0,255,136,0.10); top: -100px; left: -60px; animation: orbF 10s ease-in-out infinite alternate; }
+    .orb2 { width: 250px; height: 250px; background: rgba(255,68,68,0.07); bottom: -60px; right: -50px; animation: orbF 12s ease-in-out infinite alternate-reverse; }
+    .orb3 { width: 180px; height: 180px; background: rgba(0,200,100,0.08); top: 40%; right: -40px; animation: orbF 8s ease-in-out infinite alternate; }
+    @keyframes orbF {
+      0%   { transform: translate(0,0) scale(1); }
+      100% { transform: translate(18px,22px) scale(1.1); }
+    }
+
+    /* ── Ticker ── */
+    .ticker-wrap {
+      position: fixed; top: 0; left: 0; right: 0;
+      height: 30px;
+      background: rgba(0,255,136,0.07);
+      border-bottom: 1px solid var(--border);
+      overflow: hidden; z-index: 10;
+      display: flex; align-items: center;
+    }
+    .ticker {
+      display: flex; gap: 50px;
+      white-space: nowrap;
+      animation: tick 20s linear infinite;
+      font-size: 10.5px; font-weight: 800;
+      color: var(--g1); letter-spacing: 0.08em; text-transform: uppercase;
+    }
+    @keyframes tick { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+    .ticker .red { color: var(--red); }
+    .ticker .sep { color: var(--muted); margin: 0 2px; }
+
+    /* ── Page ── */
+    .page {
+      position: relative; z-index: 1;
+      height: 100vh;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      padding: 36px 22px 28px;
+      overflow: hidden; gap: 0;
+    }
+
+    /* ── Logo ── */
+    .top-row {
+      display: flex; flex-direction: column;
+      align-items: center; gap: 10px;
+      animation: fadeUp 0.5s ease both;
+    }
+    .logo-wrap { position: relative; width: 88px; height: 88px; }
+    .logo-ring {
+      width: 88px; height: 88px; border-radius: 50%;
+      border: 2px solid var(--g1);
+      box-shadow: 0 0 0 5px rgba(0,255,136,0.07), 0 0 22px rgba(0,255,136,0.45), 0 0 55px rgba(0,255,136,0.12);
+      overflow: hidden;
+      display: flex; align-items: center; justify-content: center;
+      background: #001a09;
+    }
+    .logo-ring img { width: 100%; height: 100%; object-fit: cover; }
+
+    /* Chart line spin */
+    .logo-spin {
+      position: absolute; inset: -5px; border-radius: 50%;
+      border-top: 2px solid var(--g1);
+      border-right: 2px solid transparent;
+      border-bottom: 2px solid var(--red);
+      border-left: 2px solid transparent;
+      animation: spin 4s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Badges ── */
+    .badge-row { display: flex; align-items: center; gap: 7px; }
+    .badge {
+      background: rgba(0,255,136,0.1);
+      border: 1px solid var(--border); border-radius: 999px;
+      padding: 4px 12px; font-size: 10px; font-weight: 800;
+      color: var(--g1); letter-spacing: 0.1em; text-transform: uppercase;
+    }
+    .badge-sub {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1); border-radius: 999px;
+      padding: 4px 12px; font-size: 10px; font-weight: 700;
+      color: var(--muted); letter-spacing: 0.05em;
+    }
+
+    /* ── Heading ── */
+    .heading-wrap {
+      margin-top: 13px; text-align: center;
+      animation: fadeUp 0.5s 0.1s ease both;
+    }
+    h1 {
+      font-family: 'Russo One', sans-serif;
+      font-size: clamp(30px, 8vw, 64px);
+      letter-spacing: 0.03em; line-height: 1;
+      color: #fff;
+      text-shadow: 0 0 40px rgba(0,255,136,0.2);
+    }
+    h1 em { font-style: normal; color: var(--g1); text-shadow: 0 0 28px rgba(0,255,136,0.8); }
+    h1 .r { color: var(--red); text-shadow: 0 0 24px rgba(255,68,68,0.6); }
+    .tagline {
+      margin-top: 7px;
+      font-size: clamp(11.5px, 2.5vw, 14px);
+      color: var(--muted); font-weight: 600;
+      letter-spacing: 0.04em; line-height: 1.5;
+    }
+
+    /* ── Pro banner ── */
+    .pro-banner {
+      margin-top: 13px;
+      display: flex; align-items: center; gap: 10px;
+      background: linear-gradient(135deg, rgba(0,255,136,0.08), rgba(0,200,80,0.04));
+      border: 1px solid var(--border); border-radius: 10px;
+      padding: 9px 18px;
+      animation: fadeUp 0.5s 0.2s ease both;
+    }
+    .pro-icon { font-size: 16px; }
+    .pro-text {
+      font-family: 'Russo One', sans-serif;
+      font-size: clamp(13px, 3vw, 17px);
+      letter-spacing: 0.08em; color: var(--g1); text-transform: uppercase;
+    }
+    .pro-sep { color: var(--red); font-weight: 900; font-size: 18px; line-height: 1; }
+
+    /* ── Pills ── */
+    .pills {
+      display: flex; flex-wrap: wrap;
+      justify-content: center; gap: 6px;
+      margin-top: 12px;
+      animation: fadeUp 0.5s 0.3s ease both;
+    }
+    .pill {
+      background: var(--card); border: 1px solid var(--border); border-radius: 7px;
+      padding: 5px 11px; font-size: 11px; font-weight: 700;
+      color: var(--text); display: flex; align-items: center; gap: 5px;
+    }
+    .pill .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--g1); box-shadow: 0 0 5px var(--g1); flex-shrink: 0; }
+    .pill .rdot { background: var(--red); box-shadow: 0 0 5px var(--red); }
+
+    /* ── Stats ── */
+    .stats {
+      display: flex; gap: 18px; margin-top: 13px;
+      animation: fadeUp 0.5s 0.38s ease both;
+    }
+    .stat { text-align: center; }
+    .stat-val {
+      font-family: 'Russo One', sans-serif; font-size: 22px;
+      color: var(--g1); letter-spacing: 0.04em;
+    }
+    .stat-val.r { color: var(--red); }
+    .stat-label { font-size: 9px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 1px; }
+    .divider { width: 1px; background: var(--border); align-self: stretch; }
+
+    /* ── Disclaimer ── */
+    .disclaimer {
+      margin-top: 10px;
+      background: rgba(255,68,68,0.06);
+      border: 1px solid rgba(255,68,68,0.2); border-radius: 8px;
+      padding: 7px 14px;
+      font-size: 10.5px; color: rgba(255,180,180,0.75);
+      text-align: center; line-height: 1.5;
+      font-weight: 600;
+      animation: fadeUp 0.5s 0.44s ease both;
+      max-width: 340px;
+    }
+
+    /* ── CTA ── */
+    .cta-wrap {
+      display: flex; flex-direction: column;
+      align-items: center; gap: 11px;
+      margin-top: 15px; width: 100%; max-width: 340px;
+      animation: fadeUp 0.5s 0.52s ease both;
+    }
+
+    .btn-primary {
+      display: flex; align-items: center; justify-content: center; gap: 9px;
+      width: 100%; padding: 14px 26px; border-radius: 12px;
+      background: linear-gradient(135deg, #00ff88, #00cc55);
+      color: #011a08; font-family: 'Nunito', sans-serif;
+      font-weight: 900; font-size: 15px; letter-spacing: 0.05em;
+      text-transform: uppercase; text-decoration: none;
+      border: none; cursor: pointer;
+      box-shadow: 0 6px 26px rgba(0,255,136,0.35);
+      animation: pulse 2.2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); box-shadow: 0 6px 26px rgba(0,255,136,0.35); }
+      50%       { transform: scale(1.045); box-shadow: 0 10px 38px rgba(0,255,136,0.58); }
+    }
+
+    .btn-secondary {
+      display: flex; align-items: center; justify-content: center; gap: 7px;
+      width: 100%; padding: 12px 26px; border-radius: 12px;
+      background: transparent; border: 1.5px solid var(--border);
+      color: var(--text); font-family: 'Nunito', sans-serif;
+      font-weight: 700; font-size: 13px; text-decoration: none; cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+      animation: pulseS 2.8s ease-in-out infinite;
+    }
+    .btn-secondary:hover { border-color: var(--g1); background: rgba(0,255,136,0.06); }
+    @keyframes pulseS {
+      0%, 100% { transform: scale(1); }
+      50%       { transform: scale(1.03); }
+    }
+    .tg-icon { width: 18px; height: 18px; flex-shrink: 0; }
+
+    /* ── Credit ── */
+    .credit {
+      position: fixed; bottom: 9px; left: 0; right: 0;
+      text-align: center; font-size: 11px;
+      color: var(--muted); z-index: 10; letter-spacing: 0.03em;
+    }
+    .credit a { color: var(--g1); text-decoration: none; font-weight: 700; }
+    .credit a:hover { text-decoration: underline; }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── Mobile ── */
+    @media (max-width: 480px) {
+      html, body { overflow: hidden; }
+      .page { padding: 34px 16px 26px; justify-content: center; }
+      .logo-wrap, .logo-ring { width: 82px; height: 82px; }
+      h1 { font-size: 28px; }
+      .tagline { font-size: 11.5px; }
+      .heading-wrap { margin-top: 11px; }
+      .pro-banner { margin-top: 11px; padding: 8px 14px; gap: 7px; }
+      .pro-text { font-size: 13px; }
+      .pills { margin-top: 10px; gap: 5px; }
+      .pill { font-size: 10.5px; padding: 5px 9px; }
+      .stats { margin-top: 11px; gap: 14px; }
+      .stat-val { font-size: 20px; }
+      .disclaimer { margin-top: 9px; font-size: 10px; padding: 6px 12px; max-width: 100%; }
+      .cta-wrap { margin-top: 12px; gap: 9px; max-width: 100%; }
+      .btn-primary { font-size: 14px; padding: 13px 20px; }
+      .btn-secondary { font-size: 12.5px; padding: 11px 20px; }
+    }
+    @media (max-width: 360px) {
+      .logo-wrap, .logo-ring { width: 72px; height: 72px; }
+      h1 { font-size: 24px; }
+      .pill { font-size: 10px; padding: 4px 8px; }
+      .btn-primary { font-size: 13px; padding: 12px 16px; }
+      .btn-secondary { font-size: 12px; padding: 10px 16px; }
+    }
+
+    /* ── Laptop ── */
+    @media (min-width: 768px) {
+      .logo-wrap, .logo-ring { width: 120px; height: 120px; }
+      h1 { font-size: 68px; }
+      .tagline { font-size: 16px; }
+      .pro-text { font-size: 20px; }
+      .pill { font-size: 13px; padding: 7px 15px; }
+      .stat-val { font-size: 30px; }
+      .btn-primary { font-size: 17px; padding: 16px 32px; }
+      .btn-secondary { font-size: 15px; padding: 14px 32px; }
+      .cta-wrap { max-width: 400px; }
+      .disclaimer { max-width: 400px; font-size: 11.5px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+
+  <!-- Ticker -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>NIFTY ▲ <span class="red">0.62%</span></span>
+      <span class="sep">•</span>
+      <span>BANKNIFTY ▲ 0.91%</span>
+      <span class="sep">•</span>
+      <span class="red">FINNIFTY ▼ 0.34%</span>
+      <span class="sep">•</span>
+      <span>OPTIONS CALL ▲ 2.4%</span>
+      <span class="sep">•</span>
+      <span>SENSEX ▲ 0.55%</span>
+      <span class="sep">•</span>
+      <span>TRADE LIKE PRO</span>
+      <span class="sep">•</span>
+      <span>NIFTY ▲ <span class="red">0.62%</span></span>
+      <span class="sep">•</span>
+      <span>BANKNIFTY ▲ 0.91%</span>
+      <span class="sep">•</span>
+      <span class="red">FINNIFTY ▼ 0.34%</span>
+      <span class="sep">•</span>
+      <span>OPTIONS CALL ▲ 2.4%</span>
+      <span class="sep">•</span>
+      <span>SENSEX ▲ 0.55%</span>
+      <span class="sep">•</span>
+      <span>TRADE LIKE PRO</span>
+    </div>
+  </div>
+
+  <main class="page">
+
+    <!-- Logo -->
+    <div class="top-row">
+      <div class="logo-wrap">
+        <div class="logo-ring">
+          <img src="https://academylinkx.site/wp-content/uploads/2026/04/done.jpg" alt="PANKAJ BHARDWAJ"
+            onerror="this.style.display='none'; this.parentElement.style.background='#001a09'; this.parentElement.innerHTML='<span style=\'font-family:Russo One,sans-serif;font-size:22px;color:#00ff88\'>SOG</span>'"/>
+        </div>
+        <div class="logo-spin"></div>
+      </div>
+      <div class="badge-row">
+        <div class="badge">✦ Official</div>
+        <div class="badge-sub">41,961 Subscribers</div>
+      </div>
+    </div>
+
+    <!-- Heading -->
+    <div class="heading-wrap">
+      <h1>Trade PANKAJ <em></em> <span class="r">BHARDWAJ</span></h1>
+      <p class="tagline">Trade Like Pro-Traders · Learn · Earn · Grow</p>
+    </div>
+
+    <!-- Pro Banner -->
+    <div class="pro-banner">
+      <span class="pro-icon">📈</span>
+      <span class="pro-text">Pro Traders</span>
+      <span class="pro-sep">×</span>
+      <span class="pro-text">Education</span>
+      <span class="pro-icon">🎯</span>
+    </div>
+
+    <!-- Pills -->
+    <div class="pills">
+      <div class="pill"><div class="dot"></div>Options Trading</div>
+      <div class="pill"><div class="dot rdot"></div>Index Calls</div>
+      <div class="pill"><div class="dot"></div>BankNifty Tips</div>
+      <div class="pill"><div class="dot rdot"></div>Nifty Analysis</div>
+      <div class="pill"><div class="dot"></div>Educational Only</div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-val">41K+</div>
+        <div class="stat-label">Subscribers</div>
+      </div>
+      <div class="divider"></div>
+      <div class="stat">
+        <div class="stat-val r">100%</div>
+        <div class="stat-label">Educational</div>
+      </div>
+      <div class="divider"></div>
+      <div class="stat">
+        <div class="stat-val">FREE</div>
+        <div class="stat-label">To Join</div>
+      </div>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="disclaimer">
+      ⚠️ Not a SEBI Registered Analyst — All calls are for educational purpose only.
+    </div>
+
+    <!-- CTAs -->
+    <div class="cta-wrap">
+      <a href="https://t.me/+af6pTYlNh-lmN2M0" target="_blank" rel="noopener" class="btn-primary">
+        <svg class="tg-icon" viewBox="0 0 24 24" fill="none">
+          <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.069l-2.04 9.608c-.15.673-.546.837-1.107.52l-3.062-2.255-1.478 1.423c-.164.164-.3.3-.615.3l.219-3.108 5.655-5.108c.246-.218-.053-.34-.38-.12L7.27 14.078l-3.013-.94c-.655-.204-.668-.655.137-.969l11.753-4.53c.546-.2 1.024.133.847.93l-.432-.5z" fill="#011a08"/>
+        </svg>
+        Join Channel — It's Free!
+      </a>
+      <a href="https://t.me/+af6pTYlNh-lmN2M0" target="_blank" rel="noopener" class="btn-secondary">
+        📊 &nbsp; Start Learning Now
+      </a>
+    </div>
+
+  </main>
+
+  <p class="credit">Ads by <a href="https://t.me/+TRlJl628l-FkMWE9" target="_blank" rel="noopener">@Nexgroww_agency</a></p>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1753399346066931');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1753399346066931&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+</body>
+</html>
